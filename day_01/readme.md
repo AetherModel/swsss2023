@@ -1,7 +1,7 @@
 WELCOME TO SPACE WEATHER SIMULATION SUMMER SCHOOL
 =================================================
 
-## Goals
+## Goals ⚽
 
 This week we will learn
 - Coding
@@ -9,9 +9,11 @@ This week we will learn
 - Visualizing scientific data
 - AND MORE
 
+Also remember to have fun have fun 😊
+
 ------------------
 
-## End of Week 
+## End of Week 📅
 
 By the end of the week you will work in groups to answer these types of
 questions
@@ -35,5 +37,7 @@ questions
 - Set up a GitHub account (this is a good step in your career)
 - Make a fork of the instructor's [SWSSS](https://github.com/AetherModel/swsss2023/) git repository.
 - Clone your fork `git clone <your fork clone url here>`
+- Add our GitHub repository to your remote repositories
+- `git remote add instructors https://github.com/AetherModel/swsss2023.git`
 - Create a new branch in your fork `git checkout -b personal`
-- More explanations tomorrow!
+- More `git` explanations tomorrow!
