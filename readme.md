@@ -11,7 +11,7 @@ Basic Information
     - Peng Mun Siew
     - Chen Wu
 - Course Meeting Times: 9am - 5pm
-- Location: Climate and Space Research Building
+- Location: Climate and Space Research Building (CSRB 2230) on 2455 Hayward St
 - Contact Information: qusai@umich.edu
 
 This course is for beginner to intermediate coders that are in the sciences. Graduate or undergraduates welcomes. This class is to teach capable scientist programmers to code *well*.
