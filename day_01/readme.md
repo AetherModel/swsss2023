@@ -28,7 +28,8 @@ questions
 ## Let's set up our environment!
 
 - Download and set up anaconda ( anaconda.com ).
-- Make sure you have installed `git` `bash` and `python` (these should be default)
+- Make sure you have installed `git` `bash`
+- On Windows `git` `m2-git` `m2-bash`
 
 -----------------
 

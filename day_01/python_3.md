@@ -157,6 +157,6 @@ axes.plot(x, y, z)
 
 It is time to commit your code changes
 - BEFORE COMMITING make sure you are on your personal branch
-- `git branch` there must be a asterisk next to personal
+- `git branch` there must be a asterisk next to `personal`
 - `git commit cos_approx.py -m 'My cos_approx edits'`
 - `git push origin personal`
