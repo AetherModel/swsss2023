@@ -14,8 +14,8 @@ with minor variations.
 ### Goals ⚽
 
 For the afternoon session, we will learn to
-- Load and manipulate scientific data.
-- Trace errors and exception in code
+- Load and manipulate scientific data
+- Trace errors and exceptions in code
 - Load data from Matlab and save data to Matlab
 - Visualize data using Matplotlib
 - Manipulate data I
