@@ -9,7 +9,7 @@ This week we will learn
 - Visualizing scientific data
 - AND MORE
 
-Also remember to have fun have fun 😊
+Also remember to have fun 😊
 
 ------------------
 
