@@ -2,6 +2,13 @@ Scientific Data Manipulation II
 =================================================
 
 ## Morning Session
+We will introduce “argparse”- a package that helps you set up these input arguments. 
+
+### Goals ⚽
+
+- Learn how to make code more reusable 
+- Use argparse 
+- Run a code from the command line
 
 ------------------
 
