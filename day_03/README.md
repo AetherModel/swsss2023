@@ -26,3 +26,8 @@ For the afternoon session, we will learn to
 - Load data from Matlab and save data to Matlab
 - Visualize data using Matplotlib
 - Manipulate data I
+
+### Pre-class task
+For the afternoon session, we will be working with some density data generated from empirical and physical models.
+
+Please download all files within the following Google Drive link (https://drive.google.com/drive/folders/113-QpJuWpePkGaDoLW-ipfwJWSDSNoPJ?usp=sharing) before coming to the afternoon session.
