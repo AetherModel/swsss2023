@@ -1,6 +1,6 @@
 ---
-title: Day 4
-description: Day 4
+title: Day 2
+description: Day 2
 author: Qusai Al Shidi
 keywords: space-weather,space,python
 math: mathjax
@@ -236,6 +236,7 @@ dataset['tec'].units  # How you get the units of data
 ```python
 def plot_tec(dataset, figsize=(12,6)):
     fig, ax = plt.figure(figsize=figsize)
+    # other things
     ax.pcolormesh()
     # other things
     return fig, ax
@@ -245,9 +246,10 @@ def plot_tec(dataset, figsize=(12,6)):
 
 ---------------------------
 
+Make another function that saves the figures instead of showing.
+
 ```python
 # You can concatenate strings in python with +
-infilename = sys.argv[1]  # First argument after your python script filename
 outfilename = infilename + '.png'
 ```
 
