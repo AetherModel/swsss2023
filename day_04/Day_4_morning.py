@@ -68,7 +68,7 @@ from our data by substituting with an interpolated value.
 
 #%%
 """
-TODO: Generating histogram and heatmap (2D histogram)
+TODO: Generating histogram
 """
 
 #%%
@@ -135,14 +135,14 @@ print(arr%5)
 
 #%%
 """
-Assignment 1(b): Load the JB2008 date that we have used in the morning and use 
+Assignment 1(b): Load the JB2008 date that we have used yesterday and use 
 3d interpolation to obtain the density values along CHAMP's trajectory
 """
 
 
 #%%
 """
-### Hint 1: Follow the instruction from the morning section and use 
+### Hint 1: Follow the instruction from the earlier section and use 
 RegularGridInterpolator from the scipy.interpolate package
 """
 
@@ -201,6 +201,12 @@ Assignment 1(f): Load the accelerometer derived density from the CHAMP data
 together with the JB2008 density and TIE-GCM density calculated above.
 """
 
+#%%
+"""
+Assignment 1(g): Calculate the daily mean density of the CHAMP data and plot 
+this value together with the JB2008 density and TIE-GCM density calculated 
+above.
+"""
 
 #%%
 """
