@@ -14,3 +14,9 @@ For the afternoon session, we will learn to
 ------------------
 
 ## Afternoon Session
+
+### Goals!!
+
+- Use `pcolormesh` to plot WAM-IPE plots.
+- Learn to make python modules.
+- Learn to run command line arguments and use them in python.

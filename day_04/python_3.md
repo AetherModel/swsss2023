@@ -24,7 +24,9 @@ dataset['tec'].units  # How you get the units of data
 
 ```python
 def plot_tec(dataset, figsize=(12,6)):
-    fig, ax = plt.figure(figsize=figsize)
+    fig, ax = plt.subplots(nrows=1,
+                           ncols=1,
+                           figsize=figsize)
     # other things
     ax.pcolormesh()
     # other things
