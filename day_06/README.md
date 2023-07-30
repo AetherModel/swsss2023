@@ -28,13 +28,19 @@ equation.
 
 - Use the tri-diagonal solver to solve for a steady-state Laplace
 equation in which x goes from 0 - 10, with dx = 0.25, and T(0) = 200.0
-and T(10) = 800.0
+and T(10) = 800.0. 
+- Add a source term that is 5.0 between x = 2 and x = 7.
+- Make plots with nice labels and such to convince people that you
+  have the correct solution.
 
 ##Assignment 3:
 
-- Use the tri-diagonal solver to solve for a steady-state Laplace
+- Use the tri-diagonal solver to solve for a steady-state Poisson
 equation in which x goes from 0 - 10, with dx = 0.25, and T(0) = 200.0
 and T(-1) = T(-2) (i.e., zero gradient).
+- Add a source term that is 5.0 between x = 2 and x = 7.
+- Make plots with nice labels and such to convince people that you
+  have the correct solution.
 
 ##Assignment 4:
 
@@ -42,6 +48,9 @@ and T(-1) = T(-2) (i.e., zero gradient).
 Poisson equations in which x goes from 0 - 10, with dx = 0.25, T(0) =
 200.0 and T(-1) = T(-2) (i.e., zero gradient), and a source between x
 = 1 and x = 7.5, that varies through-out a day (see the board).
+- Make contour plots that show the temperature as a function of
+  altitude and time with nice labels and such to convince people that
+  you have the correct solution.
 
 ##Assignment 5:
 
@@ -50,8 +59,15 @@ Poisson equations in which x goes from 0 - 10, with dx = 0.25, T(0) =
 200.0 + f(t) with tidal structures (see board) and T(-1) = T(-2)
 (i.e., zero gradient), and a source between x = 1 and x = 7.5, that
 varies through-out a day (see the board).
+- Make contour plots that show the temperature as a function of
+  altitude and time with nice labels and such to convince people that
+  you have the correct solution.
 
 ##Assignment 6:
 
 - Solve a semi-realistic altitude dependent atmosphere with
   characteristics provided on the board.
+- Make contour plots that show the temperature as a function of
+  altitude and time with nice labels and such to convince people that
+  you have the correct solution.
+  
