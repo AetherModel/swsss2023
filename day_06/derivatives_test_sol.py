@@ -100,11 +100,6 @@ def analytic(x):
 
     return f, dfdx, d2fdx2
 
-def analytic2(x):
-    """My own analytic function
-    """
-    return np.exp(x)-3*x**2, np.exp(x)-6*x, np.exp(x)-6
-
 # ----------------------------------------------------------------------
 # Main code
 # ----------------------------------------------------------------------
