@@ -29,8 +29,8 @@ idx2spec = {spec2idx[key] : key for key in spec2idx.keys()}
             
 stoich_mat = np.zeros((9,13))
 # rxn 1: O+ + N2 -> NO+ + N
-stoich_mat[[2,5],0] = - 1
-stoich_mat[[7,8],0] = 1
+stoich_mat[[2,5],0] = # insert stoichiometric coefficient for reaction 1 here
+stoich_mat[[7,8],0] = # insert stoichiometric coefficient for reaction 1 here
 # rxn 2: O+ + O2 -> O + O2+
 stoich_mat[[2,3],1] = - 1
 stoich_mat[[1,4],1] = 1
@@ -50,10 +50,10 @@ stoich_mat[[7,1],5] = 1
 stoich_mat[[7,0],6] = -1
 stoich_mat[[8,1],6] = 1
 # rxn 8/9: O <-> O+ + e
-stoich_mat[[1],7] = -1
-stoich_mat[[0,2],7] = 1
-stoich_mat[[1],8] = 1
-stoich_mat[[0,2],8] = -1
+stoich_mat[[1],7] = # insert stoichiometric coefficient for reaction 8 here
+stoich_mat[[0,2],7] = # insert stoichiometric coefficient for reaction 8 here
+stoich_mat[[1],8] = # insert stoichiometric coefficient for reaction 9 here
+stoich_mat[[0,2],8] = # insert stoichiometric coefficient for reaction 9 here
 # rxn 10/11: O2 <-> O2+ + e
 stoich_mat[[3],9] = -1
 stoich_mat[[0,4],9] = 1
@@ -77,10 +77,6 @@ def rates(c,T):
 def reactor_model(c,t,S,T):
     return ... # complete this model
 
-
-########################################
-### hereafter no more code modification necessary
-########################################
 
 c0_100 = np.zeros(9)
 c0_100[spec2idx['O']] = 4.26e11
@@ -106,6 +102,11 @@ for alt in alts:
                    # use solve_ivp with 'LSODA' as integrator. 
                    # https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html 
                 
+
+########################################
+### hereafter no more code modification necessary -- this just plots the results
+########################################
+
 
 ions = [0,2,4,6,7]
 for alt in alts:
