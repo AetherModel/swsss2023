@@ -20,8 +20,6 @@ powers_of_two = [1, 2, 4]
 some_random_stuff = 
 
 # appending stuff/mutating vectors: push!, append!
-push!(powers_of_two, 8)
-append!(powers_of_two, [16, 32])
 
 # defining a matrix
 vandermonde = [1 2 4 8;  # first row
@@ -29,49 +27,19 @@ vandermonde = [1 2 4 8;  # first row
 
 # concatenating 
 # adding rows 
-add_a_row = [vandermonde;
-             1 4 16 64]
-stacked_vandermonde = [vandermonde; 
-                       vandermonde]
-
-stacked_vandermonde = vcat(vandermonde, vandermonde) # alternative
 
 # adding columns
-bigger_vandermonde = [vandermonde vandermonde]
-
-bigger_vandermonde = hcat(vandermonde, vandermonde) # alternative
 
 # indexing starts at 1!
-vandermonde[1,3]
 
 # slicing
-vandermonde[1:2,3]
-vandermonde[1:2,2:3]
 
 # last element is indexed by end keyword
-powers_of_two[end]
-powers_of_two[end-1]
 
 ##################################
 #### loops + printing
 ##################################
-for power in powers_of_two 
-    println(power)
-end
 
-for i in 1:length(powers_of_two) # discouraged!
-    println(powers_of_two[i])
-end
-
-for i in eachindex(powers_of_two)
-    println(powers_of_two[i])
-end
-
-i = 0
-while i <= 10
-    println(i)
-    i += 1
-end
 
 #in particular ranges are written with : instead of range function
 #range(5) in python <=> 0:4 in julia 
@@ -80,13 +48,7 @@ end
 #### if-elseif-else 
 ##################################
 a = 5.0
-if a < 2
-    println("a is less than 2")
-elseif a < 3
-    println("a is less than 3")
-else 
-    println("a is greater or equal to 3")
-end
+
 
 ##################################
 #### functions
